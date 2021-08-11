@@ -1,0 +1,31 @@
+// Testbench for waveform generator & frequency selector
+`timescale 1ns/1ns
+
+module frequency_selTB();
+  reg rst =0, en =0, init =0;
+  wire clk, FreqSelclk;
+  wire [7:0]cout ;
+  wire [7:0]waveform ;
+  reg [10:0]SW =11'b0;
+  
+ ring_oscillator Ring(en,clk);
+  frequency_selector i2(cout[4], SW, clk, init, cout[5], cout[6], cout[7], cout[0], cout[1], cout[2], cout[3], FreqSelclk, waveform, rst);
+  
+
+
+
+
+  initial begin
+    #5 rst= 1;
+    #10 rst= 0;
+    #10 en= 1;
+    #5 init= 1;
+    #10 SW= 11'b00000110010; //sine with 50 MHz frequency
+    #10000000 SW= 11'b00001100100; //sine with 100 MHz frequency
+    #10000000 SW= 11'b00011001000; //sine with 200 MHz frequency
+    #10000000 $finish;
+  end
+  
+  
+endmodule
+

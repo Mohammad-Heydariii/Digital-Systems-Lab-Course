@@ -1,0 +1,21 @@
+Circuit: * D:\Fall 99_courses\Az_Manteqi\Lab1\My_worked1\part1.2.asc
+
+Direct Newton iteration for .op point succeeded.
+
+Date: Sat Nov 14 23:12:25 2020
+Total elapsed time: 0.053 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 6332
+traniter = 6324
+tranpoints = 1877
+accept = 1701
+rejected = 176
+matrix size = 14
+fillins = 0
+solver = Normal
+Matrix Compiler1: 384 bytes object code size  0.1/0.1/[0.1]
+Matrix Compiler2: off  [0.1]/0.1/0.1
+

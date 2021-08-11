@@ -1,0 +1,60 @@
+Circuit: * D:\Fall 99_courses\Az_Manteqi\Lab1\My_worked1\part1.3.asc
+
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+vernier = 0.0625
+vernier = 0.03125
+vernier = 0.015625
+vernier = 0.0078125
+vernier = 0.00390625
+vernier = 0.00195313
+Gmin = 0.000142725
+vernier = 0.000976563
+vernier = 0.000488281
+Gmin = 0
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+Source Step = 33.3333%
+Source Step = 54.7348%
+vernier = 0.015625
+Source Step = 54.5691%
+Starting source stepping with srcstepmethod=1
+Source Step = 3.0303%
+Source Step = 33.3333%
+vernier = 0.25
+Source Step = 31.3447%
+vernier = 0.000976563
+Source stepping failed
+
+Pseudo Transient failed in finding the operating point at 41.674 ms.
+Trouble finding operating point....skipping operating point for Transient analysis.
+Ignoring empty pin current: Ix(u1:vcc)
+
+Date: Fri Nov 13 21:22:13 2020
+Total elapsed time: 1.896 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 2888581
+traniter = 3292
+tranpoints = 978
+accept = 779
+rejected = 77119
+matrix size = 10
+fillins = 1
+solver = Normal
+Matrix Compiler1: 274 bytes object code size  0.1/0.0/[0.0]
+Matrix Compiler2: 578 bytes object code size  0.1/0.1/[0.1]
+

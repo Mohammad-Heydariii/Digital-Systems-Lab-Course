@@ -1,0 +1,15 @@
+`timescale 1ns/1ns
+
+module amp_selector(input [7:0]inwave,input [1:0]divisor,output reg [7:0]outwave);
+	always@(divisor) begin
+	if (divisor== 2'b00) 
+		outwave <= inwave;
+	else if (divisor== 2'b01)
+		outwave <= inwave>>1;
+	else if (divisor== 2'b10)
+		outwave <= inwave>>2;
+	else if (divisor== 2'b11)
+		outwave <= inwave>>3;
+	end
+	
+endmodule

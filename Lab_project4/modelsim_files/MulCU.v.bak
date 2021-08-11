@@ -1,0 +1,81 @@
+// Control unit for frequency multiplier
+
+module FreqMultCU(input rst,RefClk,adjust,output reg done,init_ratio,InFreq_status,shift,preload_clk_divider);
+
+	reg [2:0] ps, ns;
+
+	parameter [2:0]
+	Idle = 0, Wait= 1, Ignore=2,RatioCalc=3,Shift=4,Generate=5;
+        
+        wire [2:0]cnt;
+        reg In0C,Upc,CCO;
+
+
+
+        always@(posedge RefClk,posedge rst)begin
+          if(rst) cnt<=3'b0;
+          else if(In0C)cnt<=3'b000;
+          else if(Upc) cnt<=cnt+1;
+          else cnt<=cnt;
+        end
+         assign CCO=&cnt;
+  
+	always@(ps,adjust,CCO)begin
+		ns = Idle;
+		case(ps)
+			Idle:
+				ns = (adjust)? Wait : Idle;
+			Wait:
+				ns = (adjust)? Wait : Ignore;
+			
+                        Ignore:
+				ns =(CCO)?RatioCalc:Ignore;
+			
+                        RatioCalc:
+				ns =(CCO)?RatioCalc:Shift;
+			
+                        Shift:
+				ns =Generate; 
+                       
+                        Generate:
+                                ns =Idle;   
+		endcase
+	end
+
+	always@(ps,adjust,CCO)begin
+
+	{done,init_ratio,InFreq_status,shift,preload_clk_divider,In0C,Upc,CCO}= 8'b0;
+
+		case(ps)
+			Idle: {done}=1'b1;
+			
+
+			Wait: {In0C,init_ratio}=2'b11;
+				
+			
+                        Ignore: {Upc,InFreq_status}=2'b11;
+				
+			
+                        RatioCalc: {Upc,InFreq_status,init_ratio}=3'b111;
+				
+			
+                        Shift: {shift}=1'b1;
+				
+                       
+                        Generate:  {preload_clk_divider}=1'b1;
+                                   
+		endcase
+	end
+
+	always@(posedge RefClk,posedge rst)begin
+		if(rst == 1'b1)
+			ps <= Idle;
+		else
+			ps <= ns;
+	end
+
+endmodule
+
+
+
+

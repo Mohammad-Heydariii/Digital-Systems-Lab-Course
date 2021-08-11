@@ -1,0 +1,123 @@
+C:/Users/Asus/Desktop/my_codes/Sawtooth.v {1 {vlog -work work -stats=none {C:\Users\Asus\Desktop\my_codes\Sawtooth.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Sawtooth
+
+Top level modules:
+	Sawtooth
+
+} {} {}} C:/Users/Asus/Desktop/my_codes/ModulatedSquarewave.v {1 {vlog -work work -stats=none {C:\Users\Asus\Desktop\my_codes\ModulatedSquarewave.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ModulatedSquarewave
+
+Top level modules:
+	ModulatedSquarewave
+
+} {} {}} C:/Users/Asus/Desktop/my_codes/ring_oscillator.v {1 {vlog -work work -stats=none {C:\Users\Asus\Desktop\my_codes\ring_oscillator.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ring_oscillator
+
+Top level modules:
+	ring_oscillator
+
+} {} {}} C:/Users/Asus/Desktop/my_codes/Rhomboid.v {1 {vlog -work work -stats=none {C:\Users\Asus\Desktop\my_codes\Rhomboid.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Rhomboid
+
+Top level modules:
+	Rhomboid
+
+} {} {}} C:/Users/Asus/Desktop/my_codes/FullwaveRectified.v {1 {vlog -work work -stats=none {C:\Users\Asus\Desktop\my_codes\FullwaveRectified.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module FullwaveRectified
+
+Top level modules:
+	FullwaveRectified
+
+} {} {}} C:/Users/Asus/Desktop/my_codes/wave_genarator.v {1 {vlog -work work -stats=none {C:\Users\Asus\Desktop\my_codes\wave_genarator.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module wave_generator
+
+Top level modules:
+	wave_generator
+
+} {} {}} C:/Users/Asus/Desktop/my_codes/Sine.v {1 {vlog -work work -stats=none {C:\Users\Asus\Desktop\my_codes\Sine.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Sine
+
+Top level modules:
+	Sine
+
+} {} {}} C:/Users/Asus/Desktop/my_codes/chek_waveform.v {1 {vlog -work work -stats=none C:/Users/Asus/Desktop/my_codes/chek_waveform.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module wave_chek_tb
+
+Top level modules:
+	wave_chek_tb
+
+} {} {}} C:/Users/Asus/Desktop/my_codes/frequency_selector.vo {1 {vlog -work work -stats=none C:/Users/Asus/Desktop/my_codes/frequency_selector.vo
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module frequency_selector
+-- Compiling module hard_block
+
+Top level modules:
+	frequency_selector
+
+} {} {}} C:/Users/Asus/Desktop/my_codes/Squarewave.v {1 {vlog -work work -stats=none {C:\Users\Asus\Desktop\my_codes\Squarewave.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Squarewave
+
+Top level modules:
+	Squarewave
+
+} {} {}} C:/Users/Asus/Desktop/my_codes/Reciprocal.v {1 {vlog -work work -stats=none {C:\Users\Asus\Desktop\my_codes\Reciprocal.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Reciprocal
+
+Top level modules:
+	Reciprocal
+
+} {} {}} C:/Users/Asus/Desktop/my_codes/Amplitude_Selector.vo {1 {vlog -work work -stats=none C:/Users/Asus/Desktop/my_codes/Amplitude_Selector.vo
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Amplitude_Selector
+-- Compiling module hard_block
+
+Top level modules:
+	Amplitude_Selector
+
+} {} {}} C:/Users/Asus/Desktop/my_codes/Waveform_Generator.vo {1 {vlog -work work -stats=none C:/Users/Asus/Desktop/my_codes/Waveform_Generator.vo
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Waveform_Generator
+-- Compiling module hard_block
+
+Top level modules:
+	Waveform_Generator
+
+} {} {}} C:/Users/Asus/Desktop/my_codes/Part1TB.v {1 {vlog -work work -stats=none {C:\Users\Asus\Desktop\my_codes\Part1TB.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module wave_generatorTB
+
+Top level modules:
+	wave_generatorTB
+
+} {} {}} C:/Users/Asus/Desktop/my_codes/amp_selector.v {1 {vlog -work work -stats=none {C:\Users\Asus\Desktop\my_codes\amp_selector.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module amp_selector
+
+Top level modules:
+	amp_selector
+
+} {} {}} C:/Users/Asus/Desktop/my_codes/Part2TB.v {1 {vlog -work work -stats=none {C:\Users\Asus\Desktop\my_codes\Part2TB.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module frequency_selTB
+
+Top level modules:
+	frequency_selTB
+
+} {} {}} C:/Users/Asus/Desktop/my_codes/Part3TB.v {1 {vlog -work work -stats=none {C:\Users\Asus\Desktop\my_codes\Part3TB.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Func_generatorTB
+
+Top level modules:
+	Func_generatorTB
+
+} {} {}}

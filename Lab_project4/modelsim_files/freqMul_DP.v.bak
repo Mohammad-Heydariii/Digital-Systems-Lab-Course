@@ -1,0 +1,9 @@
+module FreqMultDP(input RefClk,rst,InFreq,init,,input[2:0]n,output OutFreq);
+  wire [15:0]duration,shiftduration;
+ 
+  
+  Divider div(InFreq,RefClk,rst,duration);
+  Shifter shift(duration,n,shiftduration);
+ 
+  
+endmodule

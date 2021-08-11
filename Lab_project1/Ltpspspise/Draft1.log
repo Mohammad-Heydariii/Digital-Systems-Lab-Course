@@ -1,0 +1,31 @@
+Circuit: * D:\Fall 99_courses\Az_Manteqi\Lab1\My_worked1\Draft1.asc
+
+Direct Newton iteration for .op point succeeded.
+Ignoring empty pin current: Ix(u1:vcc)
+Ignoring empty pin current: Ix(u2:vcc)
+Ignoring empty pin current: Ix(u3:vcc)
+Ignoring empty pin current: Ix(u4:vcc)
+Ignoring empty pin current: Ix(u5:vcc)
+Ignoring empty pin current: Ix(u1:vcc)
+Ignoring empty pin current: Ix(u2:vcc)
+Ignoring empty pin current: Ix(u3:vcc)
+Ignoring empty pin current: Ix(u4:vcc)
+Ignoring empty pin current: Ix(u5:vcc)
+
+Date: Fri Nov 13 13:42:58 2020
+Total elapsed time: 0.261 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 20053
+traniter = 20034
+tranpoints = 10018
+accept = 10018
+rejected = 0
+matrix size = 44
+fillins = 4
+solver = Normal
+Matrix Compiler1: 1.08 KB object code size  0.3/0.1/[0.1]
+Matrix Compiler2: off  [0.1]/0.3/0.2
+

@@ -1,0 +1,11 @@
+`timescale 1ns/1ns
+module counter(input clk,output reg[9:0]cnt);
+
+always @(posedge clk) begin
+  if (cnt == 10'b 1111111111)
+    cnt =10'b0;
+  else
+    cnt = cnt +1;
+ end
+
+endmodule
